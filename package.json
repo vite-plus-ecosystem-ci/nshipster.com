@@ -48,14 +48,20 @@
     "@types/hast": "^3.0.5",
     "@types/mdast": "^4.0.4",
     "@types/node": "^26.6.2",
-    "@vitest/browser-playwright": "^4.1.11",
+    "@vitest/browser-playwright": "5.0.5",
     "fast-xml-validator": "^1.4.2",
     "playwright": "^1.63.0",
     "satori": "^0.60.0",
     "sharp": "^0.35.4",
     "typescript": "^6.0.3",
-    "vite-plus": "^0.3.3",
+    "vite": "npm:@voidzero-dev/vite-plus-core@0.0.0-commit.6bc2d240a024170c08fbc831f0c201c162afd22e",
+    "vite-plus": "0.0.0-commit.6bc2d240a024170c08fbc831f0c201c162afd22e",
+    "vitest": "5.0.5",
     "wrangler": "^4.145.0"
+  },
+  "overrides": {
+    "vite": "npm:@voidzero-dev/vite-plus-core@0.0.0-commit.6bc2d240a024170c08fbc831f0c201c162afd22e",
+    "vitest": "5.0.5"
   },
   "engines": {
     "node": ">=24"
