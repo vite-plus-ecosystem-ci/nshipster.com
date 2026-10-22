@@ -12,3 +12,4 @@ dist
 .wrangler
 .context
 tests/**/__screenshots__
+.vitest/
